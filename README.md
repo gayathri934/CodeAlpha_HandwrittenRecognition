@@ -8,9 +8,13 @@ Extendable to full-word recognition with CRNN.
 
 Approach
 
-Dataset: MNIST (digits) or EMNIST (letters)
+Dataset & Preprocessing (20–30 sec)
 
-Preprocessing: Normalization, resizing, and reshaping images for CNN input
+Used the MNIST dataset, which contains 28x28 grayscale images of digits 0–9.
+
+For letters, EMNIST can be used.
+
+Images are normalized and reshaped for input into a Convolutional Neural Network, which helps the model learn effectively.
 
 CNN Architecture:
 
